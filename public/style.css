@@ -1,0 +1,31 @@
+.headingStyle{
+    background-color: black;
+    color: aquamarine;
+    text-align: center;
+    padding: 20px;
+}
+.card{
+    background: #629ae4;
+    box-shadow: 2px 4px 4px grey;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+
+
+}
+.cardTittle{
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+.decs{
+    text-align: justify;
+    margin-bottom: 5px;
+
+
+}
+.footer{
+    text-align: center;
+    font-weight: bold;
+}

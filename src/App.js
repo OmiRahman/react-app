@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom'
+import Card from './components/Card'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(){
+    return <div>
+    <Card headtxt="Card 1" bodytxt="Körül óvjon e csecsemő kerüljetek egyéb. Azt egyéb s hol fáj alázat, lásd minden gyerek mi hontalan elvonta énnekem hol hagyottan herélnek. Kínt álom a."/>
+    <Card headtxt="Card 1.1" bodytxt="Körül óvjon e csecsemő kerüljetek egyéb. Azt egyéb s hol fáj alázat, lásd minden gyerek mi hontalan elvonta énnekem hol hagyottan herélnek. Kínt álom a."/>
+    <Card headtxt="Card 2" bodytxt="Körül óvjon e csecsemő kerüljetek egyéb. Azt egyéb s hol fáj alázat, lásd minden gyerek mi hontalan elvonta énnekem hol hagyottan herélnek. Kínt álom a."/>
+    <Card headtxt="Card 4" bodytxt="Körül óvjon e csecsemő kerüljetek egyéb. Azt egyéb s hol fáj alázat, lásd minden gyerek mi hontalan elvonta énnekem hol hagyottan herélnek. Kínt álom a."/>
+    
+  </div>
 }
-
 export default App;
